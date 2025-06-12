@@ -217,7 +217,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_grafana&repository_url=https%3A%2F%2Fgithub.com%2Fysm-hassio%2Frepository
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=13ec40a8_grafana&repository_url=https%3A%2F%2Fgithub.com%2Fysm-hassio%2Frepository
 [contributors]: https://github.com/ysm-hassio/addon-grafana/graphs/contributors
 [create-db]: https://github.com/ysm-hassio/addon-influxdb/blob/main/influxdb/DOCS.md#integrating-into-home-assistant
 [frenck]: https://github.com/frenck
