@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  grafana:
+    repository: ysm-hassio/addon-grafana
+    target: grafana
+    image: ghcr.io/ysm-hassio/grafana/{arch}
