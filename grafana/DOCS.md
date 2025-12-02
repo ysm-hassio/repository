@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Grafana
+# Ysm Home Assistant Add-on: Grafana
 
 The analytics platform for all your metrics.
 
@@ -156,8 +156,6 @@ rendered image inside of a dashboard. For more details see
 
 ## Known issues and limitations
 
-- This add-on does support ARM-based devices, nevertheless, they must
-  at least be an ARMv7 device. (Raspberry Pi 1 and Zero is not supported).
 - `To render a panel image, you must install the Grafana Image Renderer plugin.`
   This message is shown on ARM devices, like a Raspberry Pi. The Grafana Image
   Renderer plugin is not available for these devices.
@@ -179,23 +177,11 @@ based on the following:
 
 Got questions?
 
-You have several options to get them answered:
-
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
-  support and feature requests.
-- The [Home Assistant Discord chat server][discord-ha] for general Home
-  Assistant discussions and questions.
-- The Home Assistant [Community Forum][forum].
-- Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
-
-You could also [open an issue here][issue] GitHub.
+You could [open an issue here][issue] GitHub.
 
 ## Authors & contributors
 
-The original setup of this repository is by [Franck Nijhof][frenck].
-
-For a full list of all authors and contributors,
-check [the contributor's page][contributors].
+**This is a fork of the original [Home Assistant Community Add-ons Grafana repository](https://github.com/hassio-addons/addon-grafana) with added VictoriaMetrics datasource plugin support.**
 
 ## License
 
@@ -222,15 +208,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_grafana&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-grafana/graphs/contributors
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=13ec40a8_grafana&repository_url=https%3A%2F%2Fgithub.com%2Fysm-hassio%2Frepository
+[contributors]: https://github.com/ysm-hassio/addon-grafana/graphs/contributors
 [create-db]: https://github.com/hassio-addons/addon-influxdb/blob/main/influxdb/DOCS.md#integrating-into-home-assistant
-[discord-ha]: https://discord.gg/c5DvZ4e
-[discord]: https://discord.me/hassioaddons
-[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-grafana/54674?u=frenck
-[frenck]: https://github.com/frenck
 [influxdb-addon]: https://github.com/hassio-addons/addon-influxdb
-[issue]: https://github.com/hassio-addons/addon-grafana/issues
-[reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-grafana/releases
+[issue]: https://github.com/ysm-hassio/addon-grafana/issues
+[releases]: https://github.com/ysm-hassio/addon-grafana/releases
 [semver]: https://semver.org/spec/v2.0.0.html
